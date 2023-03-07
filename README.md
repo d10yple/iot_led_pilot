@@ -8,7 +8,7 @@
 
 2) Configurer la base de donnée
 
-4) Configuration de [php.in](http://php.in)i
+4) Configuration de [php.in](http://php.in)i (optionnel si tout fonctionne pas besoin)
 
 ### Installation de tout les paquets
 
