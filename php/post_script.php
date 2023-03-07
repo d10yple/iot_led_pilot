@@ -2,14 +2,13 @@
 	#paramètre de connexion à la base de donnée
 	$user = "root";
 	$pass = "1234";
-	$port = "3306";
 	$host = "127.0.0.1";
 	$dbame = "iot_led_pilot";
 	$led_id = 1;
 
 	#on essaye de se connecter à la base de donnée
 	try {
-		$bdd = new PDO("mysql:host={$host};port={$port};dbname={$dbame}", $user, $pass);
+		$bdd = new PDO("mysql:host={$host};dbname={$dbame}", $user, $pass);
 
 	} catch (PDOException $e) {
 		echo "Erreur !: " . $e->getMessage() . "<br/>";
