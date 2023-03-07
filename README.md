@@ -1,4 +1,4 @@
-# installation setup web-php-python
+# installation setup apache-php-python-mysql
 
 ### étapes
 
